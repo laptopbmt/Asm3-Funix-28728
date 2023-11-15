@@ -36,9 +36,16 @@
     max-width: 100%;
     grid-template-columns: 50%;
   }
+  .border_right {
+    border-right: none;
+  }
   .certificate_info p {
     font-size: 100%;
     padding-left: 10px;
+  }
+  .footer {
+    max-width: 100%;
+    font-size: 50%;
   }
 }
 @media only screen and (min-width: 600px) {

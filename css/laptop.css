@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   line-height: 1.5;
+  letter-spacing: 0.5px;
 }
 body {
   font-family: sans-serif;
@@ -125,6 +126,11 @@ ul {
   justify-items: center;
   padding-bottom: 20px;
   padding-top: 20px;
+}
+.icon_hobbies {
+  display: flex;
+  gap: 15px;
+  text-align: center;
 }
 .ic-pencil,
 .ic-toolbox,
