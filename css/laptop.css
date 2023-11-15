@@ -21,7 +21,7 @@ img {
 .text_banner {
   position: absolute;
   left: 48%;
-  top: 6%;
+  top: 30%;
   color: #f7f7f7;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -275,7 +275,7 @@ a {
   background-color: #199cdb;
   border-radius: 50%;
   left: 6px;
-  top: 220px;
+  top: 223px;
 }
 .timeline .row3::before {
   position: absolute;
