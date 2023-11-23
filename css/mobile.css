@@ -3,6 +3,10 @@
     font-size: 50%;
     top: 48%;
   }
+  section > .container {
+    max-width: 100%;
+    margin: auto;
+  }
   .name {
     display: none;
   }
@@ -23,18 +27,21 @@
     max-width: 100%;
     grid-template-columns: auto;
   }
+  .timeline .row2::before {
+    top: 220px;
+  }
   .certificate {
-    max-width: 68%;
+    max-width: 100%;
     grid-template-columns: auto;
   }
   .project {
-    max-width: 34%;
+    max-width: 100%;
     grid-template-columns: 100%;
   }
   .certificate_info {
     border-bottom: none;
     max-width: 100%;
-    grid-template-columns: 50%;
+    grid-template-columns: 100%;
   }
   .border_right {
     border-right: none;

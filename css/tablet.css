@@ -5,7 +5,10 @@
   .name {
     display: none;
   }
-
+  section > .container {
+    max-width: 100%;
+    margin: auto;
+  }
   .about {
     display: grid !important;
     grid-template-columns: 50% 50%;
@@ -21,6 +24,9 @@
     padding-bottom: 20px;
     max-width: 100%;
   }
+  .timeline .row2::before {
+    top: 220px;
+  }
   .timeline .row3::before {
     position: absolute;
     content: "";
@@ -29,7 +35,7 @@
     background-color: #199cdb;
     border-radius: 50%;
     left: 6px;
-    bottom: 80px;
+    bottom: 104px;
   }
   .certificate {
     display: grid !important;
@@ -46,6 +52,9 @@
   }
   .border_right {
     border-right: none;
+  }
+  .section-title {
+    padding-left: 10px;
   }
   .project {
     display: grid;

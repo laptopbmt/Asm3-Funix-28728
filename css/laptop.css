@@ -20,7 +20,7 @@ img {
 }
 .text_banner {
   position: absolute;
-  left: 48%;
+  left: 50%;
   top: 30%;
   color: #f7f7f7;
   transform: translate(-50%, -50%);
@@ -104,6 +104,7 @@ ul {
 .icon-gplus,
 .icon-linkedin {
   color: #199cdb;
+  font-size: 30px;
 }
 .icon-user,
 .icon-doc-text-inv,
@@ -297,3 +298,6 @@ a {
   width: 1px;
   background-color: black;
 } */
+a:hover {
+  background-color: #2319db;
+}
